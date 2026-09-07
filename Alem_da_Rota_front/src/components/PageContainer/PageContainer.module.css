@@ -1,0 +1,33 @@
+.page {
+  width: 100%;
+  max-width: 1040px;
+  min-height: calc(100vh - 150px);
+  margin: 0 auto;
+  padding: 62px 26px 85px;
+}
+
+.heading {
+  max-width: 720px;
+  margin-bottom: 32px;
+}
+
+.heading span {
+  color: #c85d3a;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+}
+
+.heading h1 {
+  margin: 8px 0 12px;
+  color: #1f473d;
+  font-family: Georgia, serif;
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  line-height: 1.05;
+}
+
+.heading p {
+  margin: 0;
+  color: #6b7873;
+  line-height: 1.6;
+}

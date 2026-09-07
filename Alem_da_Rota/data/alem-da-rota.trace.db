@@ -1,0 +1,12 @@
+2026-08-28 19:13:49.856216-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TABLES" not found; SQL statement:
+select * from tables [42102-240]
+2026-08-28 19:13:52.553334-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TABLES" not found; SQL statement:
+select * from tables [42102-240]
+2026-08-28 19:14:00.042667-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TABLES" not found; SQL statement:
+select * from tables: [42102-240]
+2026-08-28 19:19:43.918189-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from destino[*]:"; SQL statement:
+select * from destino: [42000-240]

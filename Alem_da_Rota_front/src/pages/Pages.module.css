@@ -1,0 +1,45 @@
+.sucesso {
+    max-width: 720px;
+    color: #236847;
+    background: #e8f5ed;
+    border: 1px solid #cce6d6;
+    border-radius: 8px;
+    padding: 13px 16px;
+    margin-bottom: 24px;
+}
+
+.errorPage {
+    min-height: 100vh;
+    background: #f1e9da;
+    color: #193e36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.errorPage span {
+    color: #d9633c;
+    font-size: 5rem;
+    font-family: Georgia, serif;
+    font-weight: 800;
+}
+
+.errorPage h1 {
+    margin: 5px 0;
+}
+
+.errorPage p {
+    color: #718079;
+}
+
+.errorPage a {
+    color: white;
+    background: #193e36;
+    border-radius: 8px;
+    padding: 12px 18px;
+    text-decoration: none;
+    margin-top: 16px;
+}

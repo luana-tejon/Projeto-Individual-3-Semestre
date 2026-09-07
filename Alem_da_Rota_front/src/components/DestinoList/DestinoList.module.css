@@ -1,0 +1,168 @@
+.section {
+  width: 100%;
+}
+
+.kicker {
+  color: #c85d3a;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin: 8px 0 24px;
+}
+
+.heading h2 {
+  margin: 0 0 6px;
+  color: #1f473d;
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+}
+
+.heading p {
+  margin: 0;
+  color: #6b7873;
+}
+
+.heading > span {
+  padding: 6px 10px;
+  color: #46675d;
+  background: #e5ece8;
+  border-radius: 16px;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.card {
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #ddd8cd;
+  border-radius: 9px;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  color: #ffffff;
+  background: #547b6e;
+}
+
+.cardTop span,
+.cardTop b {
+  font-size: 0.7rem;
+}
+
+.cardBody {
+  padding: 18px;
+}
+
+.card h3 {
+  margin: 0 0 5px;
+  color: #1f473d;
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.place {
+  margin: 0;
+  color: #c85d3a;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.description {
+  min-height: 58px;
+  margin: 14px 0;
+  overflow: hidden;
+  color: #65736e;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding-top: 12px;
+  color: #354b44;
+  border-top: 1px solid #ebe7df;
+  font-size: 0.78rem;
+  font-weight: 750;
+}
+
+.meta span {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.meta small {
+  color: #8c9893;
+  font-size: 0.58rem;
+  letter-spacing: 0.05em;
+}
+
+.feedback {
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  color: #6b7873;
+  text-align: center;
+  border: 1px dashed #bfc5c1;
+  border-radius: 9px;
+}
+
+.feedback p {
+  margin: 7px 0;
+}
+
+.feedback button {
+  margin-top: 8px;
+  padding: 9px 13px;
+  color: #ffffff;
+  background: #1f473d;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback i {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 11px;
+  border: 3px solid #d7ddd9;
+  border-top-color: #c85d3a;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.emptyIcon {
+  margin-bottom: 8px;
+  color: #c85d3a;
+  font-size: 1.8rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 700px) {
+  .grid { grid-template-columns: 1fr; }
+}
